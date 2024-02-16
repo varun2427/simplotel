@@ -1,0 +1,98 @@
+.body{
+    background-color: lightsalmon;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container  {
+    margin: 0;
+    background-color: orange;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li a img {
+    margin-right: 5px; /* Adjust as needed */
+    height: 20px; /* Adjust the height to match the text */
+    width: auto; /* Ensure the image scales proportionally */
+}
+.ig{
+    float:right;
+    width:40%;
+}
+.pos{
+    background-color: lightpink;
+    position: absolute;
+    width: 70%;
+    
+}
+.button {
+    background-color:orangered;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sop {
+    border: #fff;
+    border-radius: 2px;
+    background-color: lightpink;
+    position:absolute;
+    width :70%;
+    bottom: 0%;
+
+
+}
+
+.sk {
+    float:left;
+    width:17%;
+}
+
+.su {
+    float:left;
+    width: 22%;
+    
+}
+.sr{
+    float:left;
+    width:15%;
+    
+
+}
+.content{
+      width: 20%;
+      height: 50%;
+    border: 1px solid black;
+     padding: 20px;
+     margin: 20px;
+    float:right;
+    background-color: orangered;
+}
+
+
+.button {
+    padding: 10px 20px;
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
